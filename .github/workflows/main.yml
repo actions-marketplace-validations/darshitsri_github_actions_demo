@@ -7,7 +7,10 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/github_actions_demo@main
+       # uses: actions/github_actions_demo@main
+        #- name: Demo project@12345
+        uses: darshitsri/github_actions_demo@1
+
         with:
           who-to-greet: 'It is the docker container github action'
       #  the output from the `hello` step
