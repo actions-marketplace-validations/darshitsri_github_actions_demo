@@ -10,6 +10,6 @@ jobs:
         uses: actions/github_actions_demo@main
         with:
           who-to-greet: 'It is the docker container github action'
-      # Use the output from the `hello` step
+      #  the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
